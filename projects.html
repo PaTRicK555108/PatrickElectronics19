@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Projects - Patrick Electronics</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -18,22 +18,17 @@
     </nav>
   </header>
   <main>
-    <h2>Example Project: OLED + Ultrasonic</h2>
-    <p>This project uses an ultrasonic sensor and an OLED display to show distance in real time.</p>
-    <h3>Simulation</h3>
-    <iframe height="600" style="width: 100%;" scrolling="no" title="Wokwi Simulation" src="https://wokwi.com/projects/435200911239047169?embed" frameborder="0" allowfullscreen></iframe>
-    <h3>Wiring</h3>
-    <ul>
-      <li>Trig -> Arduino Pin 3</li>
-      <li>Echo -> Arduino Pin 2</li>
-      <li>OLED SDA -> A4</li>
-      <li>OLED SCL -> A5</li>
+    <h2>Projects</h2>
+    <ul class="project-list">
+      <li>
+        <a href="projects/ultrasonic_oled.html">
+          <h3>Ultrasonic Sensor + OLED Display</h3>
+          <p>A project measuring distance using HC-SR04 sensor displayed on OLED screen.</p>
+          <!-- Optional thumbnail image here -->
+        </a>
+      </li>
+      <!-- Add more projects similarly -->
     </ul>
-    <h3>Code</h3>
-    <pre>
-#include &lt;Adafruit_SSD1306.h&gt;
-// Your Arduino code here...
-    </pre>
   </main>
   <footer>
     <p>&copy; 2025 Patrick Electronics</p>
