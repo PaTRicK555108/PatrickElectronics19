@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Patrick Electronics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Patrick Electronics</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="videos.html">Videos</a>
+      <a href="projects.html">Projects</a>
+      <a href="downloads.html">Downloads</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Example Project: OLED + Ultrasonic</h2>
+    <p>This project uses an ultrasonic sensor and an OLED display to show distance in real time.</p>
+    <h3>Simulation</h3>
+    <iframe height="600" style="width: 100%;" scrolling="no" title="Wokwi Simulation" src="https://wokwi.com/projects/435200911239047169?embed" frameborder="0" allowfullscreen></iframe>
+    <h3>Wiring</h3>
+    <ul>
+      <li>Trig -> Arduino Pin 3</li>
+      <li>Echo -> Arduino Pin 2</li>
+      <li>OLED SDA -> A4</li>
+      <li>OLED SCL -> A5</li>
+    </ul>
+    <h3>Code</h3>
+    <pre>
+#include &lt;Adafruit_SSD1306.h&gt;
+// Your Arduino code here...
+    </pre>
+  </main>
+  <footer>
+    <p>&copy; 2025 Patrick Electronics</p>
+  </footer>
+</body>
+</html>
