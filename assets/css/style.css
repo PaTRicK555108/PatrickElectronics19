@@ -1,1 +1,32 @@
 
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.project-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.wokwi-embed {
+    margin: 20px 0;
+}
+
+.code {
+    background: #2d2d2d;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
