@@ -1,37 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Projects - Patrick Electronics</title>
-  <link rel="stylesheet" href="style.css" />
+    <title>Patrick Electronics - Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Patrick Electronics</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="videos.html">Videos</a>
-      <a href="projects.html">Projects</a>
-      <a href="downloads.html">Downloads</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <h2>Projects</h2>
-    <ul class="project-list">
-      <li>
-        <a href="projects/ultrasonic_oled.html">
-          <h3>Ultrasonic Sensor + OLED Display</h3>
-          <p>A project measuring distance using HC-SR04 sensor displayed on OLED screen.</p>
-          <!-- Optional thumbnail image here -->
-        </a>
-      </li>
-      <!-- Add more projects similarly -->
-    </ul>
-  </main>
-  <footer>
-    <p>&copy; 2025 Patrick Electronics</p>
-  </footer>
+    <div class="container mt-5">
+        <h1>مشاريعنا</h1>
+        <div class="row">
+            <!-- مشروع 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/project1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">مشروع إنذار الحريق</h5>
+                        <p class="card-text">مشروع باستخدام Arduino و LM35.</p>
+                        <a href="projects/project1.html" class="btn btn-primary">عرض التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+            <!-- مشروع 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/project2.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">روبوت متتبع خط</h5>
+                        <p class="card-text">مشروع باستخدام حساس IR.</p>
+                        <a href="projects/project2.html" class="btn btn-primary">عرض التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
